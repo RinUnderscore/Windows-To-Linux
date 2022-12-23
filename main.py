@@ -30,7 +30,7 @@ def listeningfunc():
 
 # Main Control Loop
 if __name__ == "__main__":
-	print("Windows to Linux (WTL) [Version 1.0.0]")
+	print("Windows to Linux (WTL) [Version 0.1.2a]")
 	while not quit:
 		listening = input(f"{os.getcwd()}:$ ")
 		listeningfunc()
