@@ -1,7 +1,7 @@
 # Windows-To-Linux
 WTL (Beta) allows you to use Linux Functions in Windows Powershell/Command Prompt Terminal
 
-This is still in BETA and will not work (yet).
+This is still in BETA and will not work (yet). When it is finished, it will be an runable EXE file.
 
 ## Version
 Currently, this is Version 0.1.2a of WTL. There are no instalations of WTL currently.
