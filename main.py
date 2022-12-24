@@ -6,7 +6,10 @@ def ls():
 	os.system('dir')
 
 def cd(perm):
-	os.chdir(perm)
+	try:
+		os.chdir(perm)
+	except FileNotFoundError:
+		os.chdir('..')
 
 # Listening for Commands
 def listeningfunc():
