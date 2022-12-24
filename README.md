@@ -8,6 +8,12 @@ Currently, this is Version 0.1.3b of WTL. There are no instalations of WTL curre
 
 Beta Versions:
 
+Version 0.2.0:
+- Replaced "os" package with Subprocess package, migration official.
+```
+Verion 0.2.1 needs to remove: "CompletedProcess(args='pwd', returncode =0):" at shell
+```
+
 Version 0.1.4:
 - Adds MV (rename) function to commandlist. Very buggy, needs migration to subprocess
 

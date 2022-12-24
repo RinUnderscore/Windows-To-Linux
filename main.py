@@ -1,18 +1,18 @@
-import os
+import subprocess
 quit = False
 
 # Manually Convert Functions
 def ls():
-	os.system('dir')
+	subprocess.run('dir')
 
 def cd(perm):
 	try:
-		os.chdir(perm)
+		subprocess.run(f'cd {perm}')
 	except FileNotFoundError:
-		os.chdir('..')
+		subprocess.run('cd ..')
 
 def mv(perm):
-	os.system(f'ren {perm}')
+	subprocess.run(f'ren {perm}')
 
 # Listening for Commands
 def listeningfunc():
@@ -41,5 +41,6 @@ def listeningfunc():
 if __name__ == "__main__":
 	print("Windows to Linux (WTL) [Version 0.1.2a]")
 	while not quit:
-		listening = input(f"{os.getcwd()}:$ ")
+		loc = str(subprocess.run('pwd'))
+		listening = input(loc + ":$ ")
 		listeningfunc()
