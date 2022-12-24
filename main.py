@@ -11,6 +11,9 @@ def cd(perm):
 	except FileNotFoundError:
 		os.chdir('..')
 
+def mv(perm):
+	os.system(f'ren {perm}')
+
 # Listening for Commands
 def listeningfunc():
 	# Process Command -Specifics Filter
@@ -18,6 +21,7 @@ def listeningfunc():
 		cmd = listening.split(" ", 1)[0]
 	except:
 		cmd = listening
+	
 	# Specific Commands
 	if cmd == "ls":
 		ls()
@@ -28,6 +32,8 @@ def listeningfunc():
 			cd(listening.split(" ", 1)[1])
 		except IndexError:
 			cd('')
+	elif cmd == "mv":
+		mv(listening.split(' ', 1)[1])
 	else:
 		print(f'WTL: {cmd}: command not found')
 
