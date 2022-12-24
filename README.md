@@ -6,6 +6,8 @@ This is still in BETA and will not work (yet). When it is finished, it will be a
 ## Version
 Currently, this is Version 0.1.2b of WTL. There are no instalations of WTL currently.
 
+Beta Versions:
+
 Version 0.1.2a, b:
 - Bug Fixes on CD Command and Listening Scripts
 - Fixes on README.md

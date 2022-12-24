@@ -6,7 +6,7 @@ def ls():
 	os.system('dir')
 
 def cd(perm):
-	os.system('cd ' + perm)
+	os.chdir(perm)
 
 # Listening for Commands
 def listeningfunc():
