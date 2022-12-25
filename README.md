@@ -3,10 +3,19 @@ WTL (Beta) allows you to use Linux Functions in Windows Powershell/Command Promp
 
 This is still in BETA and will not work (yet). When it is finished, it will be an runable EXE file.
 
+## Alternative
+Read about WSL to use the SUPPORTED Linux Subsystem to Windows here: https://learn.microsoft.com/en-us/windows/wsl/install
+This program is offered as an "portable" setup to this while retaining all files and commands and ease of access as an windows commandline.
+
 ## Version
-Currently, this is Version 0.2.1a of WTL. There are no instalations of WTL currently.
+Currently, this is Version 0.2.2 of WTL. There is one instalation of WTL, which is the current 0.2.2 Version.
 
 Beta Versions:
+
+ersion 0.2.2:
+ (Continuation of Update 0.1.4 with Merging with ```os``` and ```subprocess```)
+ - Fixes MV Function with help of:
+ https://stackoverflow.com/questions/74908816/subprocess-run-cmd-args-returns-filenotfounderror
 
 Version 0.2.1a:
 - Mix usage of ```os``` and ```sub``` and removes:
