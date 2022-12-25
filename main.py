@@ -13,7 +13,7 @@ def cd(perm):
 		os.chdir('..')
 
 def mv(perm):
-	subprocess.run(['ren', perm], cwd=(os.getcwd()), stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+	os.rename(perm.split(" ", 1)[0], perm.split(" ", 1)[1])
 
 # Listening for Commands
 def listeningfunc():
