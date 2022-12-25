@@ -1,4 +1,10 @@
 # Windows-To-Linux
+
+## Alternative
+Read about WSL to use the SUPPORTED Linux Subsystem to Windows here: https://learn.microsoft.com/en-us/windows/wsl/install
+This program is offered as an "portable" setup to this while retaining all files and commands and ease of access as an windows commandline.
+
+## Information 
 WTL (Beta) allows you to use Linux Functions in Windows Powershell/Command Prompt Terminal
 
 This is still in BETA and will not work (yet). When it is finished, it will be an runable EXE file.
