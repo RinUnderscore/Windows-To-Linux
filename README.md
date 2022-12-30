@@ -14,7 +14,7 @@ Currently, this is Version 0.2.2 of WTL. There is one instalation of WTL, which 
 
 Beta Versions:
 
-ersion 0.2.2:
+Version 0.2.2:
  (Continuation of Update 0.1.4 with Merging with ```os``` and ```subprocess```)
  - Fixes MV Function with help of:
  https://stackoverflow.com/questions/74908816/subprocess-run-cmd-args-returns-filenotfounderror
