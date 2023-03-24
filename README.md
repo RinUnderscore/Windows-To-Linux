@@ -3,7 +3,7 @@ WTL (Beta) allows you to use Linux Functions in Windows Powershell/Command Promp
 
 This is still in BETA and will not work (yet). When it is finished, it will be an runable EXE file.
 
-Progress will slow because of an remake for an hackathon in April-ish
+Progress will slow because of an remake for an hackathon in April-ish (discontinued)
 
 ## Alternative
 Read about WSL to use the SUPPORTED Linux Subsystem to Windows here: https://learn.microsoft.com/en-us/windows/wsl/install
